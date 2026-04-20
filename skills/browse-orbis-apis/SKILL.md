@@ -1,13 +1,13 @@
 ---
 name: browse-orbis-apis
-description: Search and browse 1,500+ x402-enabled APIs on the Orbis marketplace. Use when you need to find an external API or service, want to know what APIs are available, or need to discover a paid API for a specific task. Covers "find an API for...", "what APIs does Orbis have?", "search for...", "show me available services".
+description: Search and browse 2,200+ x402-enabled APIs on the Orbis marketplace. Use when you need to find an external API or service, want to know what APIs are available, or need to discover a paid API for a specific task. Covers "find an API for...", "what APIs does Orbis have?", "search for...", "show me available services".
 user-invocable: true
 disable-model-invocation: false
 ---
 
 # Browsing the Orbis API Marketplace
 
-Orbis has 1,500+ x402-enabled APIs across AI/ML, data, utilities, finance, and more. All APIs support pay-per-call in USDC on Base via x402, with free tier options available.
+Orbis has 2,200+ x402-enabled APIs across AI/ML, data, utilities, finance, and more. All APIs support pay-per-call in USDC on Base via x402, with free tier options available.
 
 ## Search via MCP (Recommended)
 
