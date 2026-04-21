@@ -1,12 +1,12 @@
 # Orbis Agent Skills
 
-Agent skills for the [Orbis API Marketplace](https://orbisapi.com) — 1,500+ x402-enabled APIs, pay per call in USDC on Base. No subscriptions required for agents using x402.
+Agent skills for the [Orbis API Marketplace](https://orbisapi.com) — 2,800+ x402-enabled APIs, pay per call in USDC on Base. No subscriptions required for agents using x402.
 
 ## Available Skills
 
 | Skill | Description |
 |---|---|
-| [browse-orbis-apis](./skills/browse-orbis-apis/SKILL.md) | Search and discover 1,500+ APIs on the Orbis marketplace |
+| [browse-orbis-apis](./skills/browse-orbis-apis/SKILL.md) | Search and discover 2,800+ APIs on the Orbis marketplace |
 | [subscribe-to-api](./skills/subscribe-to-api/SKILL.md) | Subscribe to an Orbis API and get an API key |
 | [call-orbis-api](./skills/call-orbis-api/SKILL.md) | Call any Orbis API via x402 USDC or API key |
 
