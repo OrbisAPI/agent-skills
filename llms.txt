@@ -1,7 +1,7 @@
 # Orbis API Marketplace — llms.txt
 
 ## What is Orbis?
-Orbis is an API marketplace for the agent era. It hosts 2,300+ production-ready utility APIs that AI agents and human developers can discover, call, and pay for per-call using x402 (USDC on Base). No subscriptions required for agents.
+Orbis is an API marketplace for the agent era. It hosts 2,800+ production-ready utility APIs that AI agents and human developers can discover, call, and pay for per-call using x402 (USDC on Base). No subscriptions required for agents.
 
 ## How agents use Orbis
 Agents pay per API call using the x402 protocol — a standard for HTTP micropayments using USDC on Base (Coinbase's L2). Payment is sent in the HTTP header; no API keys or accounts required.
