@@ -1,0 +1,38 @@
+# Orbis API Marketplace — llms.txt
+
+## What is Orbis?
+Orbis is an API marketplace for the agent era. It hosts 2,300+ production-ready utility APIs that AI agents and human developers can discover, call, and pay for per-call using x402 (USDC on Base). No subscriptions required for agents.
+
+## How agents use Orbis
+Agents pay per API call using the x402 protocol — a standard for HTTP micropayments using USDC on Base (Coinbase's L2). Payment is sent in the HTTP header; no API keys or accounts required.
+
+## Key endpoints
+
+### Discover APIs
+GET https://orbisapi.com/api/marketplace/apis?search={query}&limit=10
+Returns: list of APIs with slug, name, description, price, endpoint
+
+### x402 Discovery (full catalog, crawlable)
+GET https://orbisapi.com/api/v2/x402/discovery/resources?offset=0&limit=20
+Returns: x402-formatted resource list with pricing, payment address, endpoint details
+
+### Call an API (x402)
+POST/GET https://orbisapi.com/proxy/{api-slug}/{endpoint}
+Header: X-PAYMENT: <x402 payment token>
+Price: typically $0.001 per call
+
+### MCP Server
+Connect via MCP for tool-based access:
+npx -y mcp-remote https://orbisapi.com/mcp?key=YOUR_KEY
+
+## Install agent skills
+npx skills add OrbisAPI/agent-skills
+
+## Categories
+Finance, Weather, AI/ML, Data, Text utilities, Image generation, Crypto, Sports, Travel, and 50+ more
+
+## Links
+- Marketplace: https://orbisapi.com/marketplace
+- For agents: https://orbisapi.com/for-agents
+- MCP: https://orbisapi.com/mcp
+- x402 Discovery: https://orbisapi.com/api/v2/x402/discovery/resources
